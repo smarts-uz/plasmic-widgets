@@ -1460,6 +1460,20 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/data-provider"
+        },
+        {
+          "id": "y_dZ3md5VqJs",
+          "name": "Timer",
+          "type": "managed",
+          "projectId": "7bKSoynR3noLe1Sg3WTwkN",
+          "renderModuleFilePath": "plasmic/plasmic_widget/PlasmicTimer.jsx",
+          "importSpec": {
+            "modulePath": "../pages/timer.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_widget/PlasmicTimer.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/timer"
         }
       ],
       "icons": [
