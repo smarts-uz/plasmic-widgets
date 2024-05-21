@@ -1350,6 +1350,46 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/lottie"
+        },
+        {
+          "id": "OXiLhG9aDyS5",
+          "name": "CountDown",
+          "type": "managed",
+          "projectId": "7bKSoynR3noLe1Sg3WTwkN",
+          "renderModuleFilePath": "plasmic/plasmic_widget/PlasmicCountDown.jsx",
+          "importSpec": {
+            "modulePath": "../pages/count-down.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_widget/PlasmicCountDown.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/count-down"
+        },
+        {
+          "id": "uwsmRU9lnbQw",
+          "name": "CountdownNumber",
+          "type": "managed",
+          "projectId": "7bKSoynR3noLe1Sg3WTwkN",
+          "renderModuleFilePath": "plasmic/plasmic_widget/PlasmicCountdownNumber.jsx",
+          "importSpec": {
+            "modulePath": "CountdownNumber.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_widget/PlasmicCountdownNumber.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "rzAVuPbPRk8j",
+          "name": "Countdown",
+          "type": "managed",
+          "projectId": "7bKSoynR3noLe1Sg3WTwkN",
+          "renderModuleFilePath": "plasmic/plasmic_widget/PlasmicCountdown.jsx",
+          "importSpec": {
+            "modulePath": "Countdown.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_widget/PlasmicCountdown.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -1544,7 +1584,8 @@
           "componentImportPath": "@plasmicpkgs/lottie-react"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     }
   ],
   "globalVariants": {
