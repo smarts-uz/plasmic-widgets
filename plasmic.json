@@ -1294,6 +1294,20 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/link-container"
+        },
+        {
+          "id": "mMM3KbXlmgw7",
+          "name": "Reveal",
+          "type": "managed",
+          "projectId": "7bKSoynR3noLe1Sg3WTwkN",
+          "renderModuleFilePath": "plasmic/plasmic_widget/PlasmicReveal.jsx",
+          "importSpec": {
+            "modulePath": "../pages/reveal.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_widget/PlasmicReveal.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/reveal"
         }
       ],
       "icons": [
@@ -1381,6 +1395,28 @@
       ],
       "customFunctions": [],
       "jsBundleThemes": []
+    },
+    {
+      "projectId": "58GpZjZCWTaJ8AUhpCwt2K",
+      "projectApiToken": "DIkcfhBwjMCJSjcxfBkMuy4NImyytq5EWylxVcpS9t9EpdhnPQuBgBGxmk00AB1itMFa1KXTxOKnrjN2PN9nlA",
+      "projectName": "react-awesome-reveal",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/react_awesome_reveal/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "R6s1FdhksG",
+          "name": "Reveal",
+          "displayName": "hostless-reveal",
+          "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
+        }
+      ],
+      "customFunctions": []
     }
   ],
   "globalVariants": {
