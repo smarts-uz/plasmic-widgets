@@ -1266,6 +1266,20 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/navbar"
+        },
+        {
+          "id": "KsE_rzsIH3Tf",
+          "name": "Link",
+          "type": "managed",
+          "projectId": "7bKSoynR3noLe1Sg3WTwkN",
+          "renderModuleFilePath": "plasmic/plasmic_widget/PlasmicLink.jsx",
+          "importSpec": {
+            "modulePath": "../pages/link.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_widget/PlasmicLink.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/link"
         }
       ],
       "icons": [
@@ -1346,7 +1360,8 @@
           "componentImportPath": "@plasmicpkgs/plasmic-nav"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     }
   ],
   "globalVariants": {
