@@ -9,10 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.3.7",
+    "@ant-design/pro-components": "^2.7.9",
     "@plasmicapp/loader-nextjs": "^1.0.387",
+    "@plasmicapp/react-web": "^0.2.337",
+    "@plasmicpkgs/antd5": "^0.0.235",
+    "@plasmicpkgs/commerce": "^0.0.194",
+    "@plasmicpkgs/commerce-shopify": "^0.0.201",
+    "@plasmicpkgs/plasmic-basic-components": "^0.0.215",
+    "@plasmicpkgs/plasmic-link-preview": "^1.0.93",
+    "@plasmicpkgs/plasmic-rich-components": "^1.0.185",
+    "@plasmicpkgs/react-chartjs-2": "^1.0.101",
+    "@plasmicpkgs/react-slick": "^0.0.217",
+    "@plasmicpkgs/react-youtube": "^7.13.200",
+    "chart.js": "^4.4.3",
     "next": "14.2.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "eslint": "^8",
