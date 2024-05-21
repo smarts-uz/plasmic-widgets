@@ -905,6 +905,13 @@
   dependencies:
     deepmerge "^4.3.1"
 
+"@plasmicpkgs/react-parallax-tilt@^0.0.196":
+  version "0.0.196"
+  resolved "https://registry.yarnpkg.com/@plasmicpkgs/react-parallax-tilt/-/react-parallax-tilt-0.0.196.tgz#a53995629e174fa5dd0fb71e6a5db73559d73980"
+  integrity sha512-InP6Tu2kF5AlfP+2rup1zPg0U7RE06PJDjVEjUISqQ2Ui2C5TYoHUpHa1f4eHNsVoWCZARAq6FEAe7cVLNkLMg==
+  dependencies:
+    react-parallax-tilt "^1.5.74"
+
 "@plasmicpkgs/react-scroll-parallax@^0.0.203":
   version "0.0.203"
   resolved "https://registry.yarnpkg.com/@plasmicpkgs/react-scroll-parallax/-/react-scroll-parallax-0.0.203.tgz#7a3fbe266ca25a24e60712cf9946d6872e76e610"
@@ -4250,6 +4257,11 @@ react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
+
+react-parallax-tilt@^1.5.74:
+  version "1.7.226"
+  resolved "https://registry.yarnpkg.com/react-parallax-tilt/-/react-parallax-tilt-1.7.226.tgz#8905cea406c921634676cd70116f0d205e561e5d"
+  integrity sha512-1uVwj/bZ6lfH6hXJl7JyTzjaLEwWJEmhJ43SdsnALEUWAzsXBMXYPwbOIv4CG1Fc2r9N1tjxEPrJ0JAu5zjcMw==
 
 react-scroll-parallax@3.0.0-alpha.14:
   version "3.0.0-alpha.14"

@@ -151,7 +151,8 @@
         "enk3K4vZ6pmH6kVCoZJXGn": "4.23.0",
         "7nJ7UcFmq9UzB6eXfC5z4a": "0.28.0",
         "58GpZjZCWTaJ8AUhpCwt2K": "3.25.0",
-        "84wxoth5npGrp6RRXPL88z": "4.27.0"
+        "84wxoth5npGrp6RRXPL88z": "4.27.0",
+        "szjgMQpPpxhmkjnaBvZQJG": "2.25.0"
       },
       "lang": "js",
       "fileLocks": [
@@ -458,12 +459,12 @@
         {
           "type": "renderModule",
           "assetId": "_VSedUXWZbXE",
-          "checksum": "c29de37c9ead615343eaf1dd77a3f94c"
+          "checksum": "53b2fdf58e4632a0010da4ca79e61bff"
         },
         {
           "type": "cssRules",
           "assetId": "_VSedUXWZbXE",
-          "checksum": "c29de37c9ead615343eaf1dd77a3f94c"
+          "checksum": "53b2fdf58e4632a0010da4ca79e61bff"
         },
         {
           "type": "renderModule",
@@ -586,11 +587,6 @@
           "checksum": "0847fa73c62c5b4226aa41d0d70bed46"
         },
         {
-          "assetId": "7bKSoynR3noLe1Sg3WTwkN",
-          "type": "projectCss",
-          "checksum": "8846ecdb0d8743c590a614e76d7004e5"
-        },
-        {
           "type": "renderModule",
           "assetId": "Sl8QBdxkJzS2",
           "checksum": "545fdabb72c1257bbf0dddffd7db8df8"
@@ -604,6 +600,21 @@
           "type": "image",
           "assetId": "sEz-8AU6gVts",
           "checksum": "d1063a44411f6799dce24d530220aa25"
+        },
+        {
+          "assetId": "7bKSoynR3noLe1Sg3WTwkN",
+          "type": "projectCss",
+          "checksum": "8846ecdb0d8743c590a614e76d7004e5"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "9DgKvlLIAjGv",
+          "checksum": "bb2bfb26cc52857741ffd502b452d819"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "9DgKvlLIAjGv",
+          "checksum": "bb2bfb26cc52857741ffd502b452d819"
         }
       ],
       "codegenVersion": "0.0.1"
@@ -651,6 +662,20 @@
           "assetId": "84wxoth5npGrp6RRXPL88z",
           "checksum": "14e34fc8ee04382a88f671116234a1e3",
           "type": "globalContexts"
+        }
+      ],
+      "codegenVersion": "0.0.1"
+    },
+    {
+      "projectId": "szjgMQpPpxhmkjnaBvZQJG",
+      "version": "2.25.0",
+      "dependencies": {},
+      "lang": "js",
+      "fileLocks": [
+        {
+          "assetId": "szjgMQpPpxhmkjnaBvZQJG",
+          "type": "projectCss",
+          "checksum": "29b90e78e5c36e5dc978e0c572d9fc75"
         }
       ],
       "codegenVersion": "0.0.1"

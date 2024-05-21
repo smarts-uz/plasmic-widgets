@@ -1322,6 +1322,20 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/parallax"
+        },
+        {
+          "id": "9DgKvlLIAjGv",
+          "name": "ParallaxTilt",
+          "type": "managed",
+          "projectId": "7bKSoynR3noLe1Sg3WTwkN",
+          "renderModuleFilePath": "plasmic/plasmic_widget/PlasmicParallaxTilt.jsx",
+          "importSpec": {
+            "modulePath": "../pages/parallax-tilt.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_widget/PlasmicParallaxTilt.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/parallax-tilt"
         }
       ],
       "icons": [
@@ -1462,6 +1476,29 @@
           "name": "ParallaxProviderWrapper",
           "displayName": "global-parallax-provider",
           "componentImportPath": "@plasmicpkgs/react-scroll-parallax"
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "szjgMQpPpxhmkjnaBvZQJG",
+      "projectApiToken": "xBIsrWHdWZ9kVgFEGUt29LOZPWfm0XidYqRHqPhQXsEjDHevjIbp44nEYMIZ46YOoxrN8anfXjreTkDtFjTA",
+      "projectName": "react-parallax-tilt",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/react_parallax_tilt/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "PfY466VIuq",
+          "name": "Tilt",
+          "displayName": "hostless-parallax-tilt",
+          "componentImportPath": "@plasmicpkgs/react-parallax-tilt"
         }
       ],
       "customFunctions": []
