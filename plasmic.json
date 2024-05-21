@@ -1404,6 +1404,20 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/iframe"
+        },
+        {
+          "id": "DrdDoHRCdPDn",
+          "name": "EmbedHtml",
+          "type": "managed",
+          "projectId": "7bKSoynR3noLe1Sg3WTwkN",
+          "renderModuleFilePath": "plasmic/plasmic_widget/PlasmicEmbedHtml.jsx",
+          "importSpec": {
+            "modulePath": "../pages/embed-html.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_widget/PlasmicEmbedHtml.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/embed-html"
         }
       ],
       "icons": [
