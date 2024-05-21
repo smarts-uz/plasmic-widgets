@@ -1446,6 +1446,20 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/page-meta-date-override"
+        },
+        {
+          "id": "zAML8DkkdE4d",
+          "name": "DataProvider",
+          "type": "managed",
+          "projectId": "7bKSoynR3noLe1Sg3WTwkN",
+          "renderModuleFilePath": "plasmic/plasmic_widget/PlasmicDataProvider.jsx",
+          "importSpec": {
+            "modulePath": "../pages/data-provider.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_widget/PlasmicDataProvider.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/data-provider"
         }
       ],
       "icons": [
