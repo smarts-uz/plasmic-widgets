@@ -1280,6 +1280,20 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/link"
+        },
+        {
+          "id": "7ZCWkIfWEVsR",
+          "name": "LinkContainer",
+          "type": "managed",
+          "projectId": "7bKSoynR3noLe1Sg3WTwkN",
+          "renderModuleFilePath": "plasmic/plasmic_widget/PlasmicLinkContainer.jsx",
+          "importSpec": {
+            "modulePath": "../pages/link-container.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_widget/PlasmicLinkContainer.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/link-container"
         }
       ],
       "icons": [
@@ -1319,6 +1333,11 @@
           "id": "LHFXbnO3tzc6",
           "name": "logo.jpg",
           "filePath": "../public/plasmic/plasmic_widget/images/logojpg.jpg"
+        },
+        {
+          "id": "cDdVoGtHV5Pk",
+          "name": "png-transparent-zolotoy-kubok-Кубок-wine-glass-liveinternet-others-кубок-award-клипарт-золотой.png",
+          "filePath": "../public/plasmic/plasmic_widget/images/pngTransparentZolotoyKubokКубокWineGlassLiveinternetOthersКубокAwardКлипартЗолотойpng.png"
         }
       ],
       "indirect": false,
