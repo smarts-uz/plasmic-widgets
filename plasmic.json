@@ -1418,6 +1418,20 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/embed-html"
+        },
+        {
+          "id": "AFM-OIi7kjrA",
+          "name": "DataFetcher",
+          "type": "managed",
+          "projectId": "7bKSoynR3noLe1Sg3WTwkN",
+          "renderModuleFilePath": "plasmic/plasmic_widget/PlasmicDataFetcher.jsx",
+          "importSpec": {
+            "modulePath": "../pages/data-fetcher.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_widget/PlasmicDataFetcher.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/data-fetcher"
         }
       ],
       "icons": [
