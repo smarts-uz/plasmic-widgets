@@ -1432,6 +1432,20 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/data-fetcher"
+        },
+        {
+          "id": "lVM1rCbzyrUH",
+          "name": "PageMetaDateOverride",
+          "type": "managed",
+          "projectId": "7bKSoynR3noLe1Sg3WTwkN",
+          "renderModuleFilePath": "plasmic/plasmic_widget/PlasmicPageMetaDateOverride.jsx",
+          "importSpec": {
+            "modulePath": "../pages/page-meta-date-override.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_widget/PlasmicPageMetaDateOverride.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/page-meta-date-override"
         }
       ],
       "icons": [
