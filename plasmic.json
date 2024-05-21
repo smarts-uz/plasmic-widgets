@@ -1336,6 +1336,20 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/parallax-tilt"
+        },
+        {
+          "id": "yLsD8_6JqvQZ",
+          "name": "Lottie",
+          "type": "managed",
+          "projectId": "7bKSoynR3noLe1Sg3WTwkN",
+          "renderModuleFilePath": "plasmic/plasmic_widget/PlasmicLottie.jsx",
+          "importSpec": {
+            "modulePath": "../pages/lottie.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_widget/PlasmicLottie.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/lottie"
         }
       ],
       "icons": [
@@ -1499,6 +1513,35 @@
           "name": "Tilt",
           "displayName": "hostless-parallax-tilt",
           "componentImportPath": "@plasmicpkgs/react-parallax-tilt"
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "5dGW8Awro3qq8Hh5MveXLP",
+      "projectApiToken": "wVHvHSTRyoO1MQddr5ypmW8AfwiMMy7h0Iaj4Q2YmYLLEo2A4L6pLn8Fydm8wQkTAJV9uAD5bJPo8bmGg",
+      "projectName": "lottie-react",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/lottie_react/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "BPNsJ2qis6",
+          "name": "LottieWrapper",
+          "displayName": "hostless-lottie-react",
+          "componentImportPath": "@plasmicpkgs/lottie-react"
+        },
+        {
+          "id": "vbTFHH9P-cuM",
+          "name": "AsyncLottieWrapper",
+          "displayName": "hostless-lottie-async-react",
+          "componentImportPath": "@plasmicpkgs/lottie-react"
         }
       ],
       "customFunctions": []

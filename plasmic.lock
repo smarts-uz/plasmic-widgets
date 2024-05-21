@@ -152,7 +152,8 @@
         "7nJ7UcFmq9UzB6eXfC5z4a": "0.28.0",
         "58GpZjZCWTaJ8AUhpCwt2K": "3.25.0",
         "84wxoth5npGrp6RRXPL88z": "4.27.0",
-        "szjgMQpPpxhmkjnaBvZQJG": "2.25.0"
+        "szjgMQpPpxhmkjnaBvZQJG": "2.25.0",
+        "5dGW8Awro3qq8Hh5MveXLP": "1.24.0"
       },
       "lang": "js",
       "fileLocks": [
@@ -459,12 +460,12 @@
         {
           "type": "renderModule",
           "assetId": "_VSedUXWZbXE",
-          "checksum": "53b2fdf58e4632a0010da4ca79e61bff"
+          "checksum": "d301426b9a2a81537794be1e55a62c4c"
         },
         {
           "type": "cssRules",
           "assetId": "_VSedUXWZbXE",
-          "checksum": "53b2fdf58e4632a0010da4ca79e61bff"
+          "checksum": "d301426b9a2a81537794be1e55a62c4c"
         },
         {
           "type": "renderModule",
@@ -602,11 +603,6 @@
           "checksum": "d1063a44411f6799dce24d530220aa25"
         },
         {
-          "assetId": "7bKSoynR3noLe1Sg3WTwkN",
-          "type": "projectCss",
-          "checksum": "8846ecdb0d8743c590a614e76d7004e5"
-        },
-        {
           "type": "renderModule",
           "assetId": "9DgKvlLIAjGv",
           "checksum": "bb2bfb26cc52857741ffd502b452d819"
@@ -615,6 +611,21 @@
           "type": "cssRules",
           "assetId": "9DgKvlLIAjGv",
           "checksum": "bb2bfb26cc52857741ffd502b452d819"
+        },
+        {
+          "assetId": "7bKSoynR3noLe1Sg3WTwkN",
+          "type": "projectCss",
+          "checksum": "8846ecdb0d8743c590a614e76d7004e5"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "yLsD8_6JqvQZ",
+          "checksum": "f4d8a65d6b801f04028914562ddc06fb"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "yLsD8_6JqvQZ",
+          "checksum": "f4d8a65d6b801f04028914562ddc06fb"
         }
       ],
       "codegenVersion": "0.0.1"
@@ -676,6 +687,20 @@
           "assetId": "szjgMQpPpxhmkjnaBvZQJG",
           "type": "projectCss",
           "checksum": "29b90e78e5c36e5dc978e0c572d9fc75"
+        }
+      ],
+      "codegenVersion": "0.0.1"
+    },
+    {
+      "projectId": "5dGW8Awro3qq8Hh5MveXLP",
+      "version": "1.24.0",
+      "dependencies": {},
+      "lang": "js",
+      "fileLocks": [
+        {
+          "assetId": "5dGW8Awro3qq8Hh5MveXLP",
+          "type": "projectCss",
+          "checksum": "208e7308eefeffa5d03c833e22ab6f90"
         }
       ],
       "codegenVersion": "0.0.1"
