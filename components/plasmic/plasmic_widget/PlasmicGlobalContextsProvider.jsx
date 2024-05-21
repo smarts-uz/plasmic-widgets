@@ -6,10 +6,15 @@
 import * as React from "react";
 import { AntdConfigProvider } from "@plasmicpkgs/antd5/skinny/registerConfigProvider";
 import { CommerceProviderComponent } from "@plasmicpkgs/commerce-shopify";
+import { ParallaxProviderWrapper } from "@plasmicpkgs/react-scroll-parallax";
 
 export default function GlobalContextsProvider(props) {
-  const { children, antdConfigProviderProps, commerceProviderComponentProps } =
-    props;
+  const {
+    children,
+    antdConfigProviderProps,
+    commerceProviderComponentProps,
+    parallaxProviderWrapperProps
+  } = props;
   return (
     <AntdConfigProvider
       {...antdConfigProviderProps}
@@ -118,7 +123,17 @@ export default function GlobalContextsProvider(props) {
             : "next-js-store.myshopify.com"
         }
       >
-        {children}
+        <ParallaxProviderWrapper
+          {...parallaxProviderWrapperProps}
+          scrollAxis={
+            parallaxProviderWrapperProps &&
+            "scrollAxis" in parallaxProviderWrapperProps
+              ? parallaxProviderWrapperProps.scrollAxis
+              : undefined
+          }
+        >
+          {children}
+        </ParallaxProviderWrapper>
       </CommerceProviderComponent>
     </AntdConfigProvider>
   );

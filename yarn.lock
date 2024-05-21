@@ -905,6 +905,14 @@
   dependencies:
     deepmerge "^4.3.1"
 
+"@plasmicpkgs/react-scroll-parallax@^0.0.203":
+  version "0.0.203"
+  resolved "https://registry.yarnpkg.com/@plasmicpkgs/react-scroll-parallax/-/react-scroll-parallax-0.0.203.tgz#7a3fbe266ca25a24e60712cf9946d6872e76e610"
+  integrity sha512-9Xc9vrANEgfgSSiwgngrnd7MVBu0zb+gqgzBox0yO6uwPSdvx51XXracBEdu3FQPsEQKxE5nQcvHEMi+vI/Qow==
+  dependencies:
+    react-scroll-parallax "3.0.0-alpha.14"
+    resize-observer-polyfill "^1.5.1"
+
 "@plasmicpkgs/react-slick@^0.0.217":
   version "0.0.217"
   resolved "https://registry.yarnpkg.com/@plasmicpkgs/react-slick/-/react-slick-0.0.217.tgz#ae150987b0104001573ec2a8935ac933ccdffbbb"
@@ -1869,6 +1877,11 @@ balanced-match@^1.0.0:
   version "1.0.2"
   resolved "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz"
   integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
+
+bezier-easing@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/bezier-easing/-/bezier-easing-2.1.0.tgz#c04dfe8b926d6ecaca1813d69ff179b7c2025d86"
+  integrity sha512-gbIqZ/eslnUFC1tjEvtz0sgx+xTK20wDnYMIA27VA04R7w6xxXQPZDbibjA9DTWZRA2CXtwHykkVzlCaAJAZig==
 
 boolbase@^1.0.0:
   version "1.0.0"
@@ -3665,6 +3678,13 @@ p-locate@^5.0.0:
   dependencies:
     p-limit "^3.0.2"
 
+parallax-controller@^0.1.30:
+  version "0.1.36"
+  resolved "https://registry.yarnpkg.com/parallax-controller/-/parallax-controller-0.1.36.tgz#6dfe8448b40bfa6f1740a329a9a36c6fe6b88157"
+  integrity sha512-pWOh+fQtF405vDTHJPVzddMu5NdUUHYb6xbVok/X+tgUSIFs05QfRPZ6alMcx6iSG+9U/jk+xqTjmsee3q0Sxg==
+  dependencies:
+    bezier-easing "^2.1.0"
+
 parent-module@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmjs.org/parent-module/-/parent-module-1.0.1.tgz"
@@ -4230,6 +4250,13 @@ react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
+
+react-scroll-parallax@3.0.0-alpha.14:
+  version "3.0.0-alpha.14"
+  resolved "https://registry.yarnpkg.com/react-scroll-parallax/-/react-scroll-parallax-3.0.0-alpha.14.tgz#3a8290ad6da30b43cce90842e63170ff91096afa"
+  integrity sha512-OW7CMylSM70zhv7viOfrPR1ZDgUVWWNHqHrGcgQxtaTA2US+j0JX3u/QSJDe3dxbuYsL0NVRPO63h6gG3LOkyw==
+  dependencies:
+    parallax-controller "^0.1.30"
 
 react-slick@^0.28.1:
   version "0.28.1"

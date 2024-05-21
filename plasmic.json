@@ -1308,6 +1308,20 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/reveal"
+        },
+        {
+          "id": "Sl8QBdxkJzS2",
+          "name": "Parallax",
+          "type": "managed",
+          "projectId": "7bKSoynR3noLe1Sg3WTwkN",
+          "renderModuleFilePath": "plasmic/plasmic_widget/PlasmicParallax.jsx",
+          "importSpec": {
+            "modulePath": "../pages/parallax.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_widget/PlasmicParallax.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/parallax"
         }
       ],
       "icons": [
@@ -1352,6 +1366,11 @@
           "id": "cDdVoGtHV5Pk",
           "name": "png-transparent-zolotoy-kubok-Кубок-wine-glass-liveinternet-others-кубок-award-клипарт-золотой.png",
           "filePath": "../public/plasmic/plasmic_widget/images/pngTransparentZolotoyKubokКубокWineGlassLiveinternetOthersКубокAwardКлипартЗолотойpng.png"
+        },
+        {
+          "id": "sEz-8AU6gVts",
+          "name": "360_F_571067620_JS5T5TkDtu3gf8Wqm78KoJRF1vobPvo6.jpg",
+          "filePath": "../public/plasmic/plasmic_widget/images/_360F571067620Js5T5TkDtu3Gf8Wqm78KoJrf1VobPvo6Jpg.jpg"
         }
       ],
       "indirect": false,
@@ -1414,6 +1433,35 @@
           "name": "Reveal",
           "displayName": "hostless-reveal",
           "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "84wxoth5npGrp6RRXPL88z",
+      "projectApiToken": "hOzXksPB8gkTrKnfJeV9VDS8m8dnIXQn1xxDQZ5MHxv9orQY6JNgwmk6aDMZPLkocV2KtD9gNJXv5JwIbbzIQ",
+      "projectName": "react-scroll-parallax-global",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/react_scroll_parallax_global/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "plasmic/react_scroll_parallax_global/PlasmicGlobalContextsProvider.jsx",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "bozP4lLlAZ",
+          "name": "ParallaxWrapper",
+          "displayName": "hostless-scroll-parallax",
+          "componentImportPath": "@plasmicpkgs/react-scroll-parallax"
+        },
+        {
+          "id": "L6MfauX2Cw",
+          "name": "ParallaxProviderWrapper",
+          "displayName": "global-parallax-provider",
+          "componentImportPath": "@plasmicpkgs/react-scroll-parallax"
         }
       ],
       "customFunctions": []
