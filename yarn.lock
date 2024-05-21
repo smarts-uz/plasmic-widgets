@@ -741,6 +741,11 @@
   dependencies:
     node-html-parser "^6.1.11"
 
+"@plasmicpkgs/plasmic-nav@^0.0.166":
+  version "0.0.166"
+  resolved "https://registry.yarnpkg.com/@plasmicpkgs/plasmic-nav/-/plasmic-nav-0.0.166.tgz#107c9fe2a842ca10509cf2cfb3ab8d486d07dba5"
+  integrity sha512-N1oaxKPYsyx54RL3wxnDeQyh313BIS79sYo2BkuFXIq3xraUzQWtcERkIrngcbt4T+8EJdG3QA38jdYTCanVNA==
+
 "@plasmicpkgs/plasmic-rich-components@^1.0.185":
   version "1.0.185"
   resolved "https://registry.yarnpkg.com/@plasmicpkgs/plasmic-rich-components/-/plasmic-rich-components-1.0.185.tgz#604f01d25d2d01affbe74706b02f481fd7c5a7b9"
