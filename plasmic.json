@@ -1390,6 +1390,20 @@
           "cssFilePath": "plasmic/plasmic_widget/PlasmicCountdown.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "1gs5qPE1yspJ",
+          "name": "Iframe",
+          "type": "managed",
+          "projectId": "7bKSoynR3noLe1Sg3WTwkN",
+          "renderModuleFilePath": "plasmic/plasmic_widget/PlasmicIframe.jsx",
+          "importSpec": {
+            "modulePath": "../pages/iframe.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_widget/PlasmicIframe.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/iframe"
         }
       ],
       "icons": [
