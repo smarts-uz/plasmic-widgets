@@ -1488,6 +1488,20 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/loading-boundary"
+        },
+        {
+          "id": "nhDXupv220fX",
+          "name": "Example",
+          "type": "managed",
+          "projectId": "7bKSoynR3noLe1Sg3WTwkN",
+          "renderModuleFilePath": "plasmic/plasmic_widget/PlasmicExample.jsx",
+          "importSpec": {
+            "modulePath": "../pages/example.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_widget/PlasmicExample.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/example"
         }
       ],
       "icons": [
@@ -1705,7 +1719,8 @@
           "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     }
   ],
   "globalVariants": {

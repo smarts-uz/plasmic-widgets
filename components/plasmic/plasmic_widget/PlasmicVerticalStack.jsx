@@ -228,7 +228,7 @@ function PlasmicVerticalStack__RenderFunc(props) {
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__rwrL
+                      sty.formField___02XF
                     )}
                     label={"Name"}
                     name={"name"}
@@ -240,7 +240,7 @@ function PlasmicVerticalStack__RenderFunc(props) {
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField___56K0
+                      sty.formField__nz4Qr
                     )}
                     label={"Message"}
                     name={"message"}
@@ -258,7 +258,7 @@ function PlasmicVerticalStack__RenderFunc(props) {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__cBwDk
+                        sty.text__rulpi
                       )}
                     >
                       {"Submit"}

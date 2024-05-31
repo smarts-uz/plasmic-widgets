@@ -15,9 +15,16 @@ import {
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts,
-  useCurrentUser
+  generateOnMutateForSpec,
+  generateStateOnChangePropForCodeComponents,
+  generateStateValueProp,
+  initializeCodeComponentStates,
+  useCurrentUser,
+  useDollarState
 } from "@plasmicapp/react-web";
 import { useDataEnv } from "@plasmicapp/react-web/lib/host";
+import { AntdPagination } from "@plasmicpkgs/antd5/skinny/registerPagination";
+import { paginationHelpers as AntdPagination_Helpers } from "@plasmicpkgs/antd5/skinny/registerPagination";
 import "@plasmicapp/react-web/lib/plasmic.css";
 import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
 import plasmic_plasmic_rich_components_css from "../plasmic_rich_components/plasmic.module.css"; // plasmic-import: jkU633o1Cz7HrJdwdxhVHk/projectcss
@@ -51,6 +58,46 @@ function PlasmicHomepage__RenderFunc(props) {
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
   const currentUser = useCurrentUser?.() || {};
+  const stateSpecs = React.useMemo(
+    () => [
+      {
+        path: "pagination.currentPage",
+        type: "private",
+        variableType: "number",
+        initFunc: ({ $props, $state, $queries, $ctx }) => 1,
+        onMutate: generateOnMutateForSpec("currentPage", AntdPagination_Helpers)
+      },
+      {
+        path: "pagination.pageSize",
+        type: "private",
+        variableType: "number",
+        initFunc: ({ $props, $state, $queries, $ctx }) => 10,
+        onMutate: generateOnMutateForSpec("pageSize", AntdPagination_Helpers)
+      },
+      {
+        path: "pagination.startIndex",
+        type: "private",
+        variableType: "number",
+        initFunc: ({ $props, $state, $queries, $ctx }) => undefined,
+        onMutate: generateOnMutateForSpec("startIndex", AntdPagination_Helpers)
+      },
+      {
+        path: "pagination.endIndex",
+        type: "private",
+        variableType: "number",
+        initFunc: ({ $props, $state, $queries, $ctx }) => undefined,
+        onMutate: generateOnMutateForSpec("endIndex", AntdPagination_Helpers)
+      }
+    ],
+
+    [$props, $ctx, $refs]
+  );
+  const $state = useDollarState(stateSpecs, {
+    $props,
+    $ctx,
+    $queries: {},
+    $refs
+  });
   return (
     <React.Fragment>
       <Head></Head>
@@ -77,14 +124,95 @@ function PlasmicHomepage__RenderFunc(props) {
             plasmic_plasmic_rich_components_css.plasmic_tokens,
             sty.root
           )}
-        />
+        >
+          {(() => {
+            const child$Props = {
+              className: classNames("__wab_instance", sty.pagination),
+              current: generateStateValueProp($state, [
+                "pagination",
+                "currentPage"
+              ]),
+              defaultCurrent: 1,
+              defaultPageSize: 10,
+              onChange: async (...eventArgs) => {
+                generateStateOnChangePropForCodeComponents(
+                  $state,
+                  "currentPage",
+                  ["pagination", "currentPage"],
+                  AntdPagination_Helpers
+                ).apply(null, eventArgs);
+                generateStateOnChangePropForCodeComponents(
+                  $state,
+                  "startIndex",
+                  ["pagination", "startIndex"],
+                  AntdPagination_Helpers
+                ).apply(null, eventArgs);
+                generateStateOnChangePropForCodeComponents(
+                  $state,
+                  "endIndex",
+                  ["pagination", "endIndex"],
+                  AntdPagination_Helpers
+                ).apply(null, eventArgs);
+              },
+              onShowSizeChange: generateStateOnChangePropForCodeComponents(
+                $state,
+                "pageSize",
+                ["pagination", "pageSize"],
+                AntdPagination_Helpers
+              ),
+              pageSize: generateStateValueProp($state, [
+                "pagination",
+                "pageSize"
+              ]),
+              pageSizeOptions: [
+                { pageSize: 10 },
+                { pageSize: 20 },
+                { pageSize: 50 },
+                { pageSize: 100 }
+              ]
+            };
+            initializeCodeComponentStates(
+              $state,
+              [
+                {
+                  name: "currentPage",
+                  plasmicStateName: "pagination.currentPage"
+                },
+                {
+                  name: "pageSize",
+                  plasmicStateName: "pagination.pageSize"
+                },
+                {
+                  name: "startIndex",
+                  plasmicStateName: "pagination.startIndex"
+                },
+                {
+                  name: "endIndex",
+                  plasmicStateName: "pagination.endIndex"
+                }
+              ],
+
+              [],
+              AntdPagination_Helpers ?? {},
+              child$Props
+            );
+            return (
+              <AntdPagination
+                data-plasmic-name={"pagination"}
+                data-plasmic-override={overrides.pagination}
+                {...child$Props}
+              />
+            );
+          })()}
+        </div>
       </div>
     </React.Fragment>
   );
 }
 
 const PlasmicDescendants = {
-  root: ["root"]
+  root: ["root", "pagination"],
+  pagination: ["pagination"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -119,6 +247,7 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    pagination: makeNodeComponent("pagination"),
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,
     internalArgProps: PlasmicHomepage__ArgProps,

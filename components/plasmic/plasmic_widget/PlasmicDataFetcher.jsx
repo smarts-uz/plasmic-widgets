@@ -145,6 +145,32 @@ function PlasmicDataFetcher__RenderFunc(props) {
                         }
                       })()}
                     />
+
+                    <div
+                      data-plasmic-name={"text"}
+                      data-plasmic-override={overrides.text}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text
+                      )}
+                    >
+                      <React.Fragment>
+                        {(() => {
+                          try {
+                            return currentItem.name;
+                          } catch (e) {
+                            if (
+                              e instanceof TypeError ||
+                              e?.plasmicType === "PlasmicUndefinedDataError"
+                            ) {
+                              return "";
+                            }
+                            throw e;
+                          }
+                        })()}
+                      </React.Fragment>
+                    </div>
                   </div>
                 );
               })
@@ -157,10 +183,11 @@ function PlasmicDataFetcher__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "dataFetcher", "freeBox", "img"],
-  dataFetcher: ["dataFetcher", "freeBox", "img"],
-  freeBox: ["freeBox", "img"],
-  img: ["img"]
+  root: ["root", "dataFetcher", "freeBox", "img", "text"],
+  dataFetcher: ["dataFetcher", "freeBox", "img", "text"],
+  freeBox: ["freeBox", "img", "text"],
+  img: ["img"],
+  text: ["text"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -198,6 +225,7 @@ export const PlasmicDataFetcher = Object.assign(
     dataFetcher: makeNodeComponent("dataFetcher"),
     freeBox: makeNodeComponent("freeBox"),
     img: makeNodeComponent("img"),
+    text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicDataFetcher
     internalVariantProps: PlasmicDataFetcher__VariantProps,
     internalArgProps: PlasmicDataFetcher__ArgProps,
